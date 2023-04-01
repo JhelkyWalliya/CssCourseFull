@@ -1,0 +1,48 @@
+          .hello:link {
+
+                    color: rgb(194, 4, 7);
+
+          }
+
+          .hay:hover {
+
+          color: rgb(255, 0, 55);
+          font-family: Arial;
+          font-size: 20px;
+          }
+
+
+
+          .hay:hover{
+
+                    font-style: italic;
+                    color: brown;
+          }
+
+          li:first-child a{
+                    color: brown;
+          }
+
+          li:last-child a{
+                    color: rgb(3, 213, 24);
+          }
+
+          li:nth-child(even) a {
+                    color:rgb(194, 7, 44);
+          }
+
+          :nth-child(odd) a:hover {
+                    color: rgb(184, 9, 38);
+          }
+
+          p:first-of-type{
+
+                    color: red;
+                    font-size: 20px;
+          }
+
+          p:last-of-type{
+
+                    color: chartreuse;
+                    font-weight: bold;
+          }
